@@ -42,7 +42,7 @@ function App() {
       <nav className="navbar bg-warning">
         <div className="container d-flex">
           <a className="navbar-brand" href="#">
-            Navbar
+            Menu App
           </a>
 
           <button
