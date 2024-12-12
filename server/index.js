@@ -9,6 +9,8 @@ const port = 3000;
 // nambahin cors/ permission
 app.use(cors());
 
+// testing
+
 app.get("/", (request, response) => {
   response.send("Hello World! Welcome back to mobile legends");
 });
