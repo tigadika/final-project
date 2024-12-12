@@ -8,7 +8,7 @@ function App() {
   const [dataMovies, setDataMovies] = useState([]);
 
   async function getData() {
-    const url = "http://localhost:3000/movies";
+    const url = "https://sordid-palm-splash.glitch.me/movies";
     try {
       const response = await fetch(url);
       if (!response.ok) {
